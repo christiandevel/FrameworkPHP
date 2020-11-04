@@ -1,0 +1,20 @@
+{
+    "name": "christian.moreno/frameworks-php",
+    "description": "Proyecto Basico",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "ChristianCeballos",
+            "email": "christianmoreno531@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+      "psr-4": {
+        "App\\": "app/"
+      },
+      "files": [
+        "app/helpers.php"
+      ]
+    }
+}
